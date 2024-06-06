@@ -2,14 +2,26 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>My first three.js app</title>
+		<title>3D Solar System Model</title>
 		<link rel="stylesheet" href="index.css">
 		<style>
 			body { margin: 0; }
 		</style>
 	</head>
 	<body>
-		<div id="info">Description</div>
-		<script type="module" src="/Toturial.js"></script>
+		<div id="info">3D Solar System Model</div>
+		<!-- <script type="vertex" id="vertexShader">
+			void main()
+			{
+				gl_Position = projectionMatrix*modelViewMatrix*vec4(position,1.0);
+			}
+		</script>
+		<script type="fragment" id="fragmentShader">
+			void main()
+			{
+				gl_FragColor = vec4(0.1,0.7,1.0,1.0);
+			}
+		</script> -->
+		<script type="module" src="/SolarSystem.js"></script>
 	</body>
 </html>
